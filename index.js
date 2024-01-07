@@ -1,8 +1,8 @@
 (function () {
 
     const POI = {
-        init: function () {
-            console.log('init');
+        init: function (options) {
+            console.log('You have called the init function and this options object was passed', options);
         },
     };
 
